@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Computer Engineering portfolio featuring embedded systems, PCB design, and digital engineering projects.">
+
+    <title>Aron Gebremichael | Computer Engineering</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+        <a href="#profile" class="logo">AG<span>.</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <nav id="hamburger-nav">
+        <a href="#profile" class="logo">AG<span>.</span></a>
+
+        <div class="hamburger-menu">
+            <button class="hamburger-icon"
+                    type="button"
+                    aria-label="Toggle navigation menu"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu-links" id="mobile-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero / Profile -->
+        <section id="profile">
+            <div class="section__pic-container">
+                <img
+                    src="./assets/Profile/WIN_20250923_15_48_40_Pro.jpg"
+                    alt="Portrait of Aron Gebremichael"
+                >
+            </div>
+
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+
+                <h1 class="title">Aron Gebremichael</h1>
+
+                <p class="section__text__p2">
+                    Computer Engineering Student
+                </p>
+
+            
+
+                <div class="btn-container">
+                    <a href="./assets/Profile/Aron_Gebremichael_Resume-(2027) (1).pdf"
+                       class="btn btn-color-2"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Resume
+                    </a>
+
+                    <a href="#contact" class="btn btn-color-1">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <p class="section-subtitle">Get to Know More</p>
+            <h2 class="title">About Me</h2>
+
+            <div class="about-container">
+                <p>
+                    I'm a Computer Engineering student at the
+                    University of Cincinnati.
+                </p>
+
+                <p>
+                    Through coursework and personal
+                    projects, I've gained experience with PCB
+                    design, programming, and digital logic.
+                    I enjoy understanding how individual
+                    components work together to create
+                    complete engineering systems.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience">
+            <p class="section-subtitle">What I've Worked On</p>
+            <h2 class="title">Experience & Skills</h2>
+
+            <div class="experience-container">
+
+                <article class="experience-card">
+                    <h3>Undergraduate Research</h3>
+                    <p class="card-subtitle">
+                        University of Cincinnati
+                    </p>
+                    <p>
+                        Worked on PCB design and development
+                        using Altium Designer, including schematic
+                        review, component selection, and board layout.
+                    </p>
+                </article>
+
+                <article class="experience-card">
+                    <h3>Programming</h3>
+                    <p>
+                        C++, Python, JavaScript,
+                        HTML, CSS, and MATLAB.
+                    </p>
+                </article>
+
+                <article class="experience-card">
+                    <h3>Engineering Tools</h3>
+                    <p>
+                        Altium Designer, Vivado, Verilog,
+                        Arduino, LabVIEW, and KiCad.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <p class="section-subtitle">Explore My Work</p>
+            <h2 class="title">Projects</h2>
+
+            <div class="projects-container">
+
+                
+<article class="project-card">
+
+    <!-- Video demonstration -->
+    <div class="project-video">
+        <video controls preload="metadata">
+            <source
+                src="./assets/Profile/videos/IMG_4764.MOV"
+                type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+    </div>
+
+    <!-- Project description -->
+    <div class="project-content">
+        <h3>Smart Access Control System</h3>
+
+        <p>
+            Arduino-based access control project using
+            a stepper motor, push buttons, LEDs,
+            and non-blocking timing logic.
+        </p>
+
+        <div class="project-tags">
+            <span>Arduino</span>
+            <span>C++</span>
+            <span>Embedded Systems</span>
+        </div>
+    </div>
+
+
+</article>
+
+
+<!-- EV3 Robotics Group Project -->
+<article class="project-card">
+
+    <!-- Robot demonstration video -->
+    <div class="project-video">
+        <video controls preload="metadata">
+            <source
+                src="./assets/Profile/videos/HSLL8926.MP4"
+                type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+    </div>
+
+    <div class="project-content">
+        <h3>LEGO EV3 Autonomous Robot</h3>
+
+        <p>
+            Collaborated with a team to design and program
+            an autonomous LEGO EV3 robot capable of
+            following a designated path, detecting objects,
+            and sorting bins based on sensor input.
+
+            Developed control logic using LabVIEW
+            to coordinate robot movement, sensor readings,
+            and lifting operations.
+        </p>
+
+        <div class="project-tags">
+            <span>LEGO EV3</span>
+            <span>LabVIEW</span>
+            <span>Robotics</span>
+            <span>Team Project</span>
+        </div>
+    </div>
+
+</article>
+
+            </div>
+            
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <p class="section-subtitle">Get in Touch</p>
+            <h2 class="title">Contact Me</h2>
+
+            <p class="contact-description">
+                Interested in connecting about engineering,
+                projects, or opportunities? Feel free to reach out.
+            </p>
+
+            
+<div class="contact-links">
+
+    <!-- GitHub Profile -->
+    <a href="https://github.com/aronMic"
+       class="contact-link"
+       target="_blank"
+       rel="noopener noreferrer">
+        GitHub
+    </a>
+
+    <!-- LinkedIn Profile -->
+    <a href="https:www.linkedin.com/in/aron-gebremichael/"
+       class="contact-link"
+       target="_blank"
+       rel="noopener noreferrer">
+        LinkedIn
+    </a>
+
+</div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Aron Gebremichael</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
